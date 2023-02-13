@@ -1,0 +1,9 @@
+* tsx-start
+My personal starter kit to start a new frontend project.
+
+It includes react/typescript/tailwindcss bundled with vitejs.
+
+#+BEGIN_SRC bash
+  pnpm i
+  pnpm dev
+#+END_SRC
