@@ -9,6 +9,7 @@
     "prettier": "prettier --write .",
     "prettier:check": "prettier -l .",
     "test": "jest",
+    "ci": "pnpm lint && pnpm typecheck && pnpm prettier:check && pnpm test",
     "build": "vite build"
   },
   "dependencies": {
